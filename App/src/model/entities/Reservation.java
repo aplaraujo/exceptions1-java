@@ -10,8 +10,6 @@ public class Reservation {
     private Date checkIn;
     private Date checkOut;
 
-    public Reservation() {}
-
     public Reservation(Integer roomNumber, Date checkIn, Date checkOut) {
         this.roomNumber = roomNumber;
         this.checkIn = checkIn;
